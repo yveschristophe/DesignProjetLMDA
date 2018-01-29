@@ -1,5 +1,14 @@
 import React, { Component } from 'react';
 import './Temoignages.css';
+import fond from '../Images/banniere.png';
+
+const WitStyle = {
+  backgroundImage: `url(${fond})`,
+  backgroundSize:'cover',
+  width: "100%",
+  paddingTop: "12%",
+  paddingBottom: "2%",
+ }
 
 class Temoignages extends Component {
     state={
@@ -7,21 +16,21 @@ class Temoignages extends Component {
         texte:"",
         data:[{
           element:{
-            image:"https://i.pinimg.com/736x/cf/3a/77/cf3a773eff877097c28f8afe6c1ce1ed--uconn-huskies-wnba.jpg",
+            image:"https://img00.deviantart.net/8db1/i/2016/027/e/f/portrait_of_marina_nery_by_nad4r-d9pi6qd.jpg",
             texte:"Everyday, I say 'Why Not'. ",
             nom:"Sue Bird"
           }
         },
         {
          element:{
-          image:"https://i.eurosport.com/2018/01/19/2248880-46876399-640-360.jpg",
+          image:"http://78.media.tumblr.com/2c9e38146994b46d89e05a737de76df3/tumblr_n0jqwrVD3y1r1thfzo1_1280.jpg",
           texte:"Vamos. ",
           nom:"Rafael Nadal"
         }
       },
       {
         element:{
-        image:"https://i.eurosport.com/2018/01/19/2248880-46876399-640-360.jpg",
+        image:"https://pbs.twimg.com/profile_images/577971207024197632/_3O3dOOF.jpeg",
         texte:"This why we play. ",
         nom:"Kyrie Irving"
         }
@@ -54,8 +63,8 @@ class Temoignages extends Component {
 
     });
     return (
-      <div>
-        <h1>Temoignages</h1>
+      <div className="Wit" style={WitStyle}>
+        <h1 className="Wit-title">Temoignages</h1>
       <div className="Wit-container">
 
        {constante}

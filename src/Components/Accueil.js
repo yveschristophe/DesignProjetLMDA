@@ -7,8 +7,6 @@ import './CardProduit.css';
 import Slider from './Slider';
 import './Slider.css';
 import Temoignages from './Temoignages';
-import Footer from './Footer';
-
 class Accueil extends Component {
     render() {
         return (
@@ -17,7 +15,6 @@ class Accueil extends Component {
                 <Cards/>
                 <Temoignages/>
                 <Slider/>
-                <Footer/>
             </div>
         );
     }

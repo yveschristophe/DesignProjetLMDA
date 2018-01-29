@@ -17,7 +17,7 @@
   border: 1px solid grey;
   }
   .Wit-texteCache{
-    border: 2px solid #59B23C;
+    border:  2px solid #659660;
     color: white;
     display: flex;
     justify-content: center;
@@ -25,10 +25,10 @@
   position: absolute;
   text-align: center;
   border-radius: 100px;
-  background-color: #59B23C;
+  background-color: #659660;
   width: 10%;
   opacity: 0;
-  height: 100px;
+  height: 102px;
   -webkit-transition : opacity 1s ease, width 1s ease;
   -moz-transition : opacity 1s ease, width 1s ease;
   -ms-transition : opacity 1s ease, width 1s ease;
@@ -62,4 +62,13 @@
 
     align-items: center;
   }
+}
+.Wit-title{
+  text-align: right;
+  border-bottom: 2px solid white;
+  font-family: 'Kaushan Script', cursive;
+  color: white;
+}
+.Wit{
+  padding: 0px;
 }

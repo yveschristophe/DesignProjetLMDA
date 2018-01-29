@@ -42,7 +42,7 @@
     flex-wrap: wrap;
 
   }
-  
+
 }
 
 
@@ -89,7 +89,7 @@
   transition: linear 0.5s;
   height: 220px;
   overflow: hidden;
-}  
+}
 .div-cards{
   justify-content: space-around;
   display: flex;
@@ -97,5 +97,3 @@
 
 }
 }
-
-

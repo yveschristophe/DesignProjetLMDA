@@ -2,14 +2,21 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Quicksand', sans-serif;
   background-color: #FAFAFA;
+}
+h1{
+font-family: 'Dosis', sans-serif;
+font-weight: bold;
+}
+h2{
+font-family: 'Dosis', sans-serif;
 }
 .Header{
   background-color: rgb(250, 250, 250);
   display: flex;
   flex-direction: column;
-  font-family: 'commic sans ms';
+  font-family: 'Quicksand', sans-serif;
 }
 .Langues{
   height:30px;
@@ -78,7 +85,7 @@ body {
 .divLMDA{
   display: flex;
   justify-content: center;
-  
+
 }
 .LMDA{
   width: auto;
@@ -136,8 +143,8 @@ text-align: center;
 /*GOGO==========================================*/
 
 #Cards-container{
-  
-  margin-top:40px; 
+
+  margin-top:40px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -182,7 +189,7 @@ text-align: center;
   width: 380px;
 }
 
-.Cards{ 
+.Cards{
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -192,8 +199,8 @@ text-align: center;
   background-color: #fcfcfc;
   overflow: hidden;
   transition: linear 0.2s;
-  border-radius: 3px; 
-  
+  border-radius: 3px;
+
 }
 .Cards:hover{
   display: flex;
@@ -202,11 +209,11 @@ text-align: center;
   align-items: center;
   margin-bottom: 40px;
   background-color: white;
-  opacity: 0.6;  
+  opacity: 0.6;
   overflow: hidden;
   margin-top: -6px;
   cursor: pointer;
-  border: 1px solid #e8e8e8; 
+  border: 1px solid #e8e8e8;
 }
 
 #modal-container{
@@ -263,7 +270,7 @@ text-align: center;
 #creatorinfo p{
   width: 360px;
   text-align: center;
-  
+
 }
 
 
@@ -308,7 +315,7 @@ text-align: center;
   width: 380px;
 }
 
-.Cards{ 
+.Cards{
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -318,18 +325,18 @@ text-align: center;
   background-color: #fcfcfc;
   overflow: hidden;
   transition: linear 0.2s;
-  border-radius: 3px; 
-   
+  border-radius: 3px;
+
 }
 .Cards:hover{
- 
+
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
    margin-bottom: 40px;
   background-color: white;
-  opacity: 0.6;  
+  opacity: 0.6;
   overflow: hidden;
   margin-top: -6px;
   cursor: pointer;
@@ -396,13 +403,13 @@ text-align: center;
 text-align: center;
 margin: 0;
 }
- 
+
 }
 
 @media all and (min-width: 641px) and (max-width: 1024px){
 
 #Cards-container{
-  padding-top:40px; 
+  padding-top:40px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -445,7 +452,7 @@ margin: 0;
   width: 319px;
 }
 
-.Cards{ 
+.Cards{
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -455,8 +462,8 @@ margin: 0;
   background-color: #fcfcfc;
   overflow: hidden;
   transition: linear 0.2s;
-  border-radius: 3px; 
-  
+  border-radius: 3px;
+
 }
 .Cards:hover{
   display: flex;
@@ -465,11 +472,11 @@ margin: 0;
   align-items: center;
   margin-bottom: 40px;
   background-color: white;
-  opacity: 0.6;  
+  opacity: 0.6;
   overflow: hidden;
   margin-top: -6px;
   cursor: pointer;
-  border: 1px solid #e8e8e8; 
+  border: 1px solid #e8e8e8;
 }
 
 #modal-container{
@@ -527,11 +534,7 @@ margin: 0;
 #creatorinfo p{
   width: 299px;
   text-align: center;
-  
-}
- 
+
 }
 
-
-
-
+}
